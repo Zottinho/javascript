@@ -28,8 +28,10 @@ img#imagem{
 }
 
 div{
-    text-align: center;
+    line-height: 1.6;
     padding: 8px;
+    margin: 4px;
+    text-align: justify;
 }
 
 footer{
