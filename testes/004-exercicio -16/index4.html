@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste com JavaScript</title>
+    <title>Teste com JavaScript Super contador</title>
     <link rel="stylesheet" href="st1.css">
 </head>
-<body onload="contar()" >
+<body>
     
   <header>
     <h1>
-        Vamos Contar
+        Vamos Contar!
     </h1>
   </header>
   <main>
     <section>
       <div id="contagem">
-        Inicio: <input 
-        type="number" name="inicio" id="inicio"> <br>
-        Fim: <input type="number" name="res" id="res"> <br>
-        Passo: <input type="number" name="passo" id="passo"> <br>
-        <button> Contar </button> <br>
-
+          <p>Inicio: <input type="number" name="inicio" id="inicio"></p>
+          <p>Fim: <input type="number" name="final" id="final"></p>
+          <p>Passo: <input type="number" name="passo" id="passo"></p>
+          <p><input type="button" value="Contar" onclick="contar()">
+          </p>
+        
+        
 
       </div>
       <div id="resultado">
@@ -37,6 +38,7 @@
 
   </footer>
   <script src="scp16.js"></script>
+  
   
   
 </body>
