@@ -14,7 +14,7 @@ body{
 }
 header{
     background-image: url(imagens/cascata01.jpg);
-    height: 50vh;    
+    height: 10vh;    
     background-repeat: no-repeat;
     background-position: center -200px;
     background-size: cover; 
